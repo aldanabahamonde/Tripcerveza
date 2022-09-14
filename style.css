@@ -69,8 +69,12 @@ body{
     border:rgba(255, 174, 0, 0.5);
     justify-content: space-between;
     align-content: center;
-    animation: 2s; 
+    /*transition: 0.5s linear;*/
 }
+.card:hover{
+    -webkit-box-shadow: 50% 50% 54% 10% rgba(0, 0, 0, 0.632);
+    box-shadow: 30px 30px 34px 6px rgba(0, 0, 0, 0.567);
+} 
 #Plantilla {
     display: grid;
     grid-template-areas:

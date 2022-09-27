@@ -66,17 +66,20 @@ body{
     font-size: 20px
 }
 .card {
+    object-fit: cover;
+    transition: 0.2s linear;
+    -webkit-transition: 1s linear;
     background-color: aliceblue;
-    padding: 10px;
+    padding: 3%;
     border-radius: 5px;
     border:rgba(255, 174, 0, 0.5);
     justify-content: space-between;
-    align-content: center;
-    /*transition: 0.5s linear;*/
+    align-content: center
 }
+
+
 .card:hover{
-    -webkit-box-shadow: 50% 50% 54% 10% rgba(0, 0, 0, 0.632);
-    box-shadow: 30px 30px 34px 6px rgba(0, 0, 0, 0.567);
+    transform: scale(1.1);
 } 
 #Plantilla {
     display: grid;

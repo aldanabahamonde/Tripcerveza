@@ -101,7 +101,7 @@ section#section2{
     height: 100% ;
     font: 100% system-ui;
     margin: 10px;
-    padding: 150px;
+    padding: 20px;
     align-items: center;
 }
 .recuadro{
@@ -130,7 +130,7 @@ h1 {
     text-align: center;
     background-color: rgba(180, 178, 170, 0.5);
     color:aliceblue;
-    width: 500px;
+    width: 100%;
     border: 0px;
 }
 ol {
